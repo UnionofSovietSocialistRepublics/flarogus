@@ -8,5 +8,5 @@ drag: 0.1
 accel: 0.008
 drawCell: false
 hitSize: 70
-engineOffset: 30
+engineOffset: 20
 engineSize: 10
