@@ -23,5 +23,4 @@ weapons: [
     reload: 1
     recoil: 0
     }
-  }
 ]
