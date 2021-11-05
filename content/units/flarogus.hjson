@@ -1,0 +1,11 @@
+type: flying
+flying: true
+health: 10000
+armor: 75
+speed: 5
+rotateSpeed: 5
+drag: 0.005
+accel: 0.008
+hitSize: 70
+engineOffset: 10
+engineSize: 10
