@@ -1,6 +1,6 @@
 type: flying
 flying: true
-health: 10000
+health: 60000
 armor: 75
 speed: 15
 rotateSpeed: 5
@@ -10,3 +10,16 @@ drawCell: false
 hitSize: 70
 engineOffset: 20
 engineSize: 10
+weapons: [
+  {
+    bullet: {
+      name: flarogus-weapon
+      type: artilleryExplosive
+      damage: 200
+      rotate: true
+    rotateSpeed: 3.1
+    reload: 1
+    recoil: 0
+    }
+  }
+]
