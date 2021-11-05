@@ -3,9 +3,10 @@ flying: true
 health: 10000
 armor: 75
 speed: 5
-rotateSpeed: 5
-drag: 0.005
-accel: 0.008
+rotateSpeed: 10
+drag: 1
+accel: 1
+drawCell: false
 hitSize: 70
-engineOffset: 10
+engineOffset: 30
 engineSize: 10
