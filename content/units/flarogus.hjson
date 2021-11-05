@@ -13,7 +13,7 @@ engineSize: 10
 weapons: [
       {
       name: flarogus-weapon
-      x: 25
+      x: 30
       rotate: true
       mirror: false
       bullet: {
@@ -21,9 +21,9 @@ weapons: [
       damage: 200
       rotate: true
       lowAltitude: true
-      width: 40
-      height: 40
-      speed: 10
+      width: 20
+      height: 20
+      speed: 30
       splashDamage: 80
     }
     rotateSpeed: 3.1
@@ -32,7 +32,7 @@ weapons: [
     }
       {
       name: flarogus-weapon
-      x: -25
+      x: -30
       rotate: true
       mirror: false
       bullet: {
@@ -40,13 +40,31 @@ weapons: [
       damage: 200
       rotate: true
       lowAltitude: true
-      width: 40
-      height: 40
-      speed: 10
+      width: 20
+      height: 20
+      speed: 30
       splashDamage: 80
     }
     rotateSpeed: 3.1
     reload: 5
+    recoil: 0
+    }
+       {
+      name: flarogus-weapon
+      rotate: true
+      mirror: false
+      bullet: {
+      type: RailBulletType
+      damage: 1000
+      rotate: true
+      lowAltitude: true
+      width: 20
+      height: 20
+      speed: 30
+      splashDamage: 80
+    }
+    rotateSpeed: 3.1
+    reload: 10
     recoil: 0
     }
 ]
