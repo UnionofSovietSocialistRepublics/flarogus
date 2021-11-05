@@ -11,12 +11,14 @@ hitSize: 70
 engineOffset: 20
 engineSize: 10
 weapons: [
-  {
-    bullet: {
+      {
       name: flarogus-weapon
-      type: artilleryExplosive
+      bullet: {
+      type: ContinuousLaserBulletType
       damage: 200
       rotate: true
+      lowAltitude: true
+    }
     rotateSpeed: 3.1
     reload: 1
     recoil: 0
