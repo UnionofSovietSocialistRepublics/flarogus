@@ -13,12 +13,14 @@ engineSize: 10
 weapons: [
       {
       name: flarogus-weapon
-      x: 5
+      x: 15
       bullet: {
       type: MissleBulletType
       damage: 200
       rotate: true
       lowAltitude: true
+      width: 10
+      height: 10
     }
     rotateSpeed: 3.1
     reload: 5
