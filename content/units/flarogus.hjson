@@ -21,8 +21,8 @@ weapons: [
       damage: 200
       rotate: true
       lowAltitude: true
-      width: 20
-      height: 20
+      width: 30
+      height: 30
       speed: 30
       splashDamage: 80
     }
@@ -40,31 +40,13 @@ weapons: [
       damage: 200
       rotate: true
       lowAltitude: true
-      width: 20
-      height: 20
+      width: 30
+      height: 30
       speed: 30
       splashDamage: 80
     }
     rotateSpeed: 3.1
     reload: 5
-    recoil: 0
-    }
-       {
-      name: flarogus-weapon
-      rotate: true
-      mirror: false
-      bullet: {
-      type: RailBulletType
-      damage: 1000
-      rotate: true
-      lowAltitude: true
-      width: 20
-      height: 20
-      speed: 30
-      splashDamage: 80
-    }
-    rotateSpeed: 3.1
-    reload: 10
     recoil: 0
     }
 ]
