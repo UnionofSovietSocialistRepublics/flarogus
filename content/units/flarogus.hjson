@@ -24,10 +24,11 @@ weapons: [
       lowAltitude: true
       width: 30
       height: 30
-      lifetime: 80
+      lifetime: 160
       drawSize: 110
-      width: 8
+      width: 15
       splashDamage: 80
+      shootSound: beam
     }
     rotateSpeed: 3.1
     reload: 5
@@ -46,10 +47,11 @@ weapons: [
       lowAltitude: true
       width: 30
       height: 30
-      lifetime: 80
+      lifetime: 160
       drawSize: 110
-      width: 8
+      width: 15
       splashDamage: 80
+      shootSound: beam
     }
     rotateSpeed: 3.1
     reload: 5
