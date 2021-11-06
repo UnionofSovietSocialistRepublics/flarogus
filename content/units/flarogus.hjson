@@ -1,6 +1,6 @@
 type: flying
 flying: true
-health: 20000
+health: 24000
 speed: 15
 rotateSpeed: 5
 drag: 0.1
