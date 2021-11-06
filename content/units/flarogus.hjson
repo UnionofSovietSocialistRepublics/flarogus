@@ -1,7 +1,6 @@
 type: flying
 flying: true
 health: 20000
-armor: 75
 speed: 15
 rotateSpeed: 5
 drag: 0.1
@@ -18,6 +17,7 @@ weapons: [
       mirror: false
       continuous: true
       shootSound: beam
+      reload: 50
       bullet: {
       type: ContinuousLaserBulletType
       damage: 100
@@ -27,11 +27,10 @@ weapons: [
       height: 30
       lifetime: 300
       drawSize: 110
-      width: 10
+      width: 8
       splashDamage: 80
     }
     rotateSpeed: 3.1
-    reload: 200
     recoil: 0
     }
       {
@@ -41,6 +40,7 @@ weapons: [
       mirror: false
       continuous: true
       shootSound: beam
+      reload: 50
       bullet: {
       type: ContinuousLaserBulletType
       damage: 100
@@ -50,11 +50,10 @@ weapons: [
       height: 30
       lifetime: 300
       drawSize: 110
-      width: 10
+      width: 8
       splashDamage: 80
     }
     rotateSpeed: 3.1
-    reload: 200
     recoil: 0
     }
 ]
