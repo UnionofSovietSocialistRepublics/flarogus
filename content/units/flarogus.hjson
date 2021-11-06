@@ -24,7 +24,6 @@ weapons: [
       lowAltitude: true
       width: 30
       height: 30
-      speed: 30
       splashDamage: 80
     }
     rotateSpeed: 3.1
@@ -44,7 +43,6 @@ weapons: [
       lowAltitude: true
       width: 30
       height: 30
-      speed: 30
       splashDamage: 80
     }
     rotateSpeed: 3.1
