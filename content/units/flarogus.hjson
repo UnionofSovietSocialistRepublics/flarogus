@@ -17,6 +17,7 @@ weapons: [
       rotate: true
       mirror: false
       continuous: true
+      shootSound: beam
       bullet: {
       type: ContinuousLaserBulletType
       damage: 500
@@ -26,9 +27,8 @@ weapons: [
       height: 30
       lifetime: 160
       drawSize: 110
-      width: 15
+      width: 10
       splashDamage: 80
-      shootSound: beam
     }
     rotateSpeed: 3.1
     reload: 5
@@ -40,6 +40,7 @@ weapons: [
       rotate: true
       mirror: false
       continuous: true
+      shootSound: beam
       bullet: {
       type: ContinuousLaserBulletType
       damage: 500
@@ -49,9 +50,8 @@ weapons: [
       height: 30
       lifetime: 160
       drawSize: 110
-      width: 15
+      width: 10
       splashDamage: 80
-      shootSound: beam
     }
     rotateSpeed: 3.1
     reload: 5
