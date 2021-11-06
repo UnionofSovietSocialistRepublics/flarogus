@@ -18,13 +18,15 @@ weapons: [
       mirror: false
       continuous: true
       bullet: {
-      type: missileExplosive
+      type: ContinuousLaserBulletType
       damage: 500
       rotate: true
       lowAltitude: true
       width: 30
       height: 30
-      speed: 15
+      lifetime: 80
+      drawSize: 110
+      width: 4
       splashDamage: 80
     }
     rotateSpeed: 3.1
@@ -38,13 +40,15 @@ weapons: [
       mirror: false
       continuous: true
       bullet: {
-      type: missileExplosive
+      type: ContinuousLaserBulletType
       damage: 500
       rotate: true
       lowAltitude: true
       width: 30
       height: 30
-      speed: 15
+      lifetime: 80
+      drawSize: 110
+      width: 4
       splashDamage: 80
     }
     rotateSpeed: 3.1
