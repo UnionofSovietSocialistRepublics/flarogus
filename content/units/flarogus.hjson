@@ -26,7 +26,7 @@ weapons: [
       height: 30
       lifetime: 80
       drawSize: 110
-      width: 4
+      width: 8
       splashDamage: 80
     }
     rotateSpeed: 3.1
@@ -48,7 +48,7 @@ weapons: [
       height: 30
       lifetime: 80
       drawSize: 110
-      width: 4
+      width: 8
       splashDamage: 80
     }
     rotateSpeed: 3.1
