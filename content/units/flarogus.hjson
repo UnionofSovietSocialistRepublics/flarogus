@@ -31,7 +31,7 @@ weapons: [
       splashDamage: 80
     }
     rotateSpeed: 3.1
-    reload: 5
+    reload: 20
     recoil: 0
     }
       {
@@ -54,7 +54,7 @@ weapons: [
       splashDamage: 80
     }
     rotateSpeed: 3.1
-    reload: 5
+    reload: 20
     recoil: 0
     }
 ]
