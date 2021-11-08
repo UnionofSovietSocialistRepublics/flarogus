@@ -1,0 +1,13 @@
+reloadMultiplier: 1000
+effect: {
+  type: ParticleEffect
+  particles: 2
+  line: true
+  length: 0.01
+  lifetime: 12
+  colorFrom: ffffff
+  colorTo: Ffe800
+  lenFrom: 10
+  lenTo: 10
+  strokeFrom: 3
+  strokeTo: 0
