@@ -13,6 +13,7 @@ weapons: [
       {
       name: flarogus-weapon
       x: 30
+      y: 30
       rotate: true
       mirror: false
       continuous: true
@@ -36,28 +37,6 @@ weapons: [
       {
       name: flarogus-weapon
       x: -30
-      rotate: true
-      mirror: false
-      continuous: true
-      shootSound: beam
-      reload: 50
-      bullet: {
-      type: ContinuousLaserBulletType
-      damage: 5000
-      rotate: true
-      lowAltitude: true
-      width: 30
-      height: 30
-      lifetime: 400
-      drawSize: 110
-      width: 8
-      splashDamage: 80
-    }
-    rotateSpeed: 3.1
-    recoil: 0
-    }
-      {
-      name: flarogus-weapon
       y: 30
       rotate: true
       mirror: false
@@ -82,6 +61,31 @@ weapons: [
       {
       name: flarogus-weapon
       y: -30
+      x: -30
+      rotate: true
+      mirror: false
+      continuous: true
+      shootSound: beam
+      reload: 50
+      bullet: {
+      type: ContinuousLaserBulletType
+      damage: 5000
+      rotate: true
+      lowAltitude: true
+      width: 30
+      height: 30
+      lifetime: 400
+      drawSize: 110
+      width: 8
+      splashDamage: 80
+    }
+    rotateSpeed: 3.1
+    recoil: 0
+    }
+      {
+      name: flarogus-weapon
+      y: -30
+      x: 30
       rotate: true
       mirror: false
       continuous: true
