@@ -1,6 +1,6 @@
 type: flying
 flying: true
-health: 500000
+health: 800000
 speed: 20
 rotateSpeed: 5
 drag: 0.1
@@ -36,6 +36,52 @@ weapons: [
       {
       name: flarogus-weapon
       x: -30
+      rotate: true
+      mirror: false
+      continuous: true
+      shootSound: beam
+      reload: 50
+      bullet: {
+      type: ContinuousLaserBulletType
+      damage: 5000
+      rotate: true
+      lowAltitude: true
+      width: 30
+      height: 30
+      lifetime: 400
+      drawSize: 110
+      width: 8
+      splashDamage: 80
+    }
+    rotateSpeed: 3.1
+    recoil: 0
+    }
+      {
+      name: flarogus-weapon
+      y: 30
+      rotate: true
+      mirror: false
+      continuous: true
+      shootSound: beam
+      reload: 50
+      bullet: {
+      type: ContinuousLaserBulletType
+      damage: 5000
+      rotate: true
+      lowAltitude: true
+      width: 30
+      height: 30
+      lifetime: 400
+      drawSize: 110
+      width: 8
+      splashDamage: 80
+    }
+    rotateSpeed: 3.1
+    recoil: 0
+    }
+      {
+      name: flarogus-weapon
+      y: -30
       rotate: true
       mirror: false
       continuous: true
