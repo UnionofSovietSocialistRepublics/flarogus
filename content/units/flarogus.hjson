@@ -1,7 +1,7 @@
 type: flying
 flying: true
-health: 24000
-speed: 15
+health: 500000
+speed: 20
 rotateSpeed: 5
 drag: 0.1
 accel: 0.008
@@ -20,12 +20,12 @@ weapons: [
       reload: 50
       bullet: {
       type: ContinuousLaserBulletType
-      damage: 100
+      damage: 5000
       rotate: true
       lowAltitude: true
       width: 30
       height: 30
-      lifetime: 300
+      lifetime: 400
       drawSize: 110
       width: 8
       splashDamage: 80
@@ -43,12 +43,12 @@ weapons: [
       reload: 50
       bullet: {
       type: ContinuousLaserBulletType
-      damage: 100
+      damage: 5000
       rotate: true
       lowAltitude: true
       width: 30
       height: 30
-      lifetime: 300
+      lifetime: 400
       drawSize: 110
       width: 8
       splashDamage: 80
