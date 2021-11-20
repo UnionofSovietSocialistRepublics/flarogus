@@ -7,7 +7,7 @@ lowAltitude: true
 drag: 0.1
 accel: 0.008
 drawCell: false
-hitSize: 70
+hitSize: 100
 engineOffset: 20
 engineSize: 10
 weapons: [
@@ -121,10 +121,12 @@ weapons: [
       damage: 8000
       rotate: true
       lowAltitude: true
-      width: 30
+      width: 40
       height: 30
       drawSize: 110
       width: 8
+      reload: 1
+      speed: 20
       splashDamage: 80
     }
     rotateSpeed: 3.1
@@ -143,10 +145,12 @@ weapons: [
       damage: 8000
       rotate: true
       lowAltitude: true
-      width: 30
+      width: 40
       height: 30
       drawSize: 110
       width: 8
+      reload: 1
+      speed: 20
       splashDamage: 80
     }
     rotateSpeed: 3.1
@@ -165,10 +169,12 @@ weapons: [
       damage: 8000
       rotate: true
       lowAltitude: true
-      width: 30
+      width: 40
       height: 30
       drawSize: 110
       width: 8
+      reload: 1
+      speed: 20
       splashDamage: 80
     }
     rotateSpeed: 3.1
@@ -187,10 +193,12 @@ weapons: [
       damage: 8000
       rotate: true
       lowAltitude: true
-      width: 30
+      width: 40
       height: 30
       drawSize: 110
       width: 8
+      reload: 1
+      speed: 20
       splashDamage: 80
     }
     rotateSpeed: 3.1
