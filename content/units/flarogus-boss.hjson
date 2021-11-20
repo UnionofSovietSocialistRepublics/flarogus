@@ -124,8 +124,8 @@ weapons: [
       width: 70
       height: 20
       drawSize: 110
-      width: 8
-      reload: 1
+      width: 20
+      reload: 0.5
       speed: 20
       splashDamage: 80
     }
@@ -147,8 +147,8 @@ weapons: [
       width: 70
       height: 20
       drawSize: 110
-      width: 8
-      reload: 1
+      width: 20
+      reload: 0.5
       speed: 20
       splashDamage: 80
     }
@@ -170,8 +170,8 @@ weapons: [
       width: 70
       height: 20
       drawSize: 110
-      width: 8
-      reload: 1
+      width: 20
+      reload: 0.5
       speed: 20
       splashDamage: 80
     }
@@ -193,8 +193,8 @@ weapons: [
       width: 70
       height: 20
       drawSize: 110
-      width: 8
-      reload: 1
+      width: 20
+      reload: 0.5
       speed: 20
       splashDamage: 80
     }
