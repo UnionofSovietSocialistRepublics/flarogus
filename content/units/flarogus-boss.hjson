@@ -13,8 +13,8 @@ engineSize: 10
 weapons: [
       {
       name: flarogus-weapon
-      x: 30
-      y: 30
+      x: 50
+      y: 50
       rotate: true
       mirror: false
       continuous: true
@@ -37,8 +37,8 @@ weapons: [
     }
       {
       name: flarogus-weapon
-      x: -30
-      y: 30
+      x: -50
+      y: 50
       rotate: true
       mirror: false
       continuous: true
@@ -61,8 +61,8 @@ weapons: [
     }
       {
       name: flarogus-weapon
-      y: -30
-      x: -30
+      y: -50
+      x: -50
       rotate: true
       mirror: false
       continuous: true
@@ -85,8 +85,8 @@ weapons: [
     }
       {
       name: flarogus-weapon
-      y: -30
-      x: 30
+      y: -50
+      x: 50
       rotate: true
       mirror: false
       continuous: true
@@ -110,11 +110,11 @@ weapons: [
 
 {
       name: flarogus-weapon
-      x: 40
+      x: 60
       rotate: true
       mirror: false
       continuous: true
-      shootSound: beam
+      shootSound: bigshot
       reload: 50
       bullet: {
       type: MissileBulletType
@@ -134,19 +134,18 @@ weapons: [
     }
       {
       name: flarogus-weapon
-      x: -40
+      x: -60
       rotate: true
       mirror: false
-      continuous: true
-      shootSound: beam
+      shootSound: bigshot
       reload: 50
       bullet: {
       type: MissileBulletType
       damage: 8000
       rotate: true
       lowAltitude: true
-      width: 40
-      height: 30
+      width: 20
+      height: 20
       drawSize: 110
       width: 8
       reload: 1
@@ -158,19 +157,18 @@ weapons: [
     }
       {
       name: flarogus-weapon
-      y: -40
+      y: -60
       rotate: true
       mirror: false
-      continuous: true
-      shootSound: beam
+      shootSound: bigshot
       reload: 50
       bullet: {
       type: MissileBulletType
       damage: 8000
       rotate: true
       lowAltitude: true
-      width: 40
-      height: 30
+      width: 20
+      height: 20
       drawSize: 110
       width: 8
       reload: 1
@@ -182,19 +180,18 @@ weapons: [
     }
       {
       name: flarogus-weapon
-      y: 40
+      y: 60
       rotate: true
       mirror: false
-      continuous: true
-      shootSound: beam
+      shootSound: bigshot
       reload: 50
       bullet: {
       type: MissileBulletType
       damage: 8000
       rotate: true
       lowAltitude: true
-      width: 40
-      height: 30
+      width: 20
+      height: 20
       drawSize: 110
       width: 8
       reload: 1
