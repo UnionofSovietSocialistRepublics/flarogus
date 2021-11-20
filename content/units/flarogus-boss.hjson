@@ -107,4 +107,93 @@ weapons: [
     rotateSpeed: 3.1
     recoil: 0
     }
+
+{
+      name: flarogus-weapon
+      x: 40
+      rotate: true
+      mirror: false
+      continuous: true
+      shootSound: beam
+      reload: 50
+      bullet: {
+      type: MissileBulletType
+      damage: 8000
+      rotate: true
+      lowAltitude: true
+      width: 30
+      height: 30
+      drawSize: 110
+      width: 8
+      splashDamage: 80
+    }
+    rotateSpeed: 3.1
+    recoil: 0
+    }
+      {
+      name: flarogus-weapon
+      x: -40
+      rotate: true
+      mirror: false
+      continuous: true
+      shootSound: beam
+      reload: 50
+      bullet: {
+      type: MissileBulletType
+      damage: 8000
+      rotate: true
+      lowAltitude: true
+      width: 30
+      height: 30
+      drawSize: 110
+      width: 8
+      splashDamage: 80
+    }
+    rotateSpeed: 3.1
+    recoil: 0
+    }
+      {
+      name: flarogus-weapon
+      y: -40
+      rotate: true
+      mirror: false
+      continuous: true
+      shootSound: beam
+      reload: 50
+      bullet: {
+      type: MissileBulletType
+      damage: 8000
+      rotate: true
+      lowAltitude: true
+      width: 30
+      height: 30
+      drawSize: 110
+      width: 8
+      splashDamage: 80
+    }
+    rotateSpeed: 3.1
+    recoil: 0
+    }
+      {
+      name: flarogus-weapon
+      y: 40
+      rotate: true
+      mirror: false
+      continuous: true
+      shootSound: beam
+      reload: 50
+      bullet: {
+      type: MissileBulletType
+      damage: 8000
+      rotate: true
+      lowAltitude: true
+      width: 30
+      height: 30
+      drawSize: 110
+      width: 8
+      splashDamage: 80
+    }
+    rotateSpeed: 3.1
+    recoil: 0
+    }
 ]
