@@ -4,6 +4,7 @@ health: 800000
 speed: 20
 rotateSpeed: 5
 lowAltitude: true
+rotateShooting: false
 drag: 0.1
 accel: 0.008
 drawCell: false
