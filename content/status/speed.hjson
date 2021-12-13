@@ -1,6 +1,6 @@
 reloadMultiplier: 1000
 damageMultiplier: 90
-speedMultiplier: 10
+speedMultiplier: 2
 effect: {
   type: ParticleEffect
   particles: 2
